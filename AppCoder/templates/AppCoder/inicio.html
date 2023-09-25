@@ -1,0 +1,29 @@
+{% extends "AppCoder/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+PÁGINA DEL HOSPITAL
+
+{% endblock %}
+
+{% block descripcion %}
+
+<form action="AppCoder/resultados/" method="GET">
+    
+    <input type="text" name="prestador">
+
+    <input type="submit" value="Buscar">
+
+</form>
+
+<p>Se está buscando al prestador {{prestador}}</p>>
+
+{% for turno in turnos %}
+
+    <p>Nombre: {{turno.prestador}} Fecha: {{turno.Fecha}}
+
+{% endfor %}
+
+{% endblock %}
