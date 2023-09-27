@@ -59,6 +59,6 @@ def resultados(request):
     
     else:
 
-        respuesta = "Sin datos"
+        respuesta = "No hay datos"
 
     return HttpResponse(respuesta)
