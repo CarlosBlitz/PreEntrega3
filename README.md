@@ -8,4 +8,4 @@ ORDEN DE PRUEBA
 - Lo voy a escribir luego, ya que es probable que, con los cambios, se hagan modificaciones a las páginas. De todas formas, es un sistema sencillo donde:
 - Página /AppCoder tiene el formulario de búsqueda, donde se consultal los datos que -en teoría- se cargan en el formulario de /turnoFormulario.
 - Este último recibe los datos del prestador, solicitante y fecha, cuyos resultados son consultados en la primer página.
-- Hay páginas de prestadores médicos y pacientes.
+- Hay páginas de prestadores médicos y pacientes. 2.
